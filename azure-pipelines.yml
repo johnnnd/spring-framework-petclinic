@@ -9,7 +9,7 @@ trigger:
 variables:
 
   # Azure Resource Manager connection created during pipeline creation
-  azureSubscription: 'e9a1f911-a38a-4af5-8bc6-db513d00394d'
+  azureSubscription: 'my-azure-conn'
   
   # Web app name
   webAppName: 'tomcatdemoexample'
