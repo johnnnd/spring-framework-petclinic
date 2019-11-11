@@ -12,10 +12,10 @@ variables:
   azureSubscription: 'my-azure-conn'
   
   # Web app name
-  webAppName: 'tomcatdemoexample'
+  webAppName: 'demojavatomcatapp'
 
   # Environment name
-  environmentName: 'tomcatdemoexample'
+  environmentName: 'demojavatomcatapp'
   
   # Agent VM image name
   vmImageName: 'ubuntu-latest'
@@ -60,7 +60,7 @@ stages:
         deploy:
           steps:
           - task: AzureWebApp@1
-            displayName: 'Azure Web App Deploy: tomcatdemoexample'
+            displayName: 'Azure Web App Deploy: demojavatomcatapp'
             inputs:
               azureSubscription: $(azureSubscription)
               appType: webAppLinux
